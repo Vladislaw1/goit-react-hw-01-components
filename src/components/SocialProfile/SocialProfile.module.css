@@ -1,0 +1,47 @@
+.title {
+  font-weight: bold;
+  font-size: 45px;
+  color: red;
+}
+.profile {
+  width: 280px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(192, 192, 192, 0.6);
+  box-shadow: 5px 10px 14px rgba(0, 0, 0, 0.4);
+}
+.description {
+  padding: 10px;
+  background-color: rgba(192, 192, 192, 0.8);
+}
+.avatar {
+  background-color: white;
+  border-radius: 50%;
+}
+.name {
+  font-weight: bold;
+}
+.tag {
+  font-weight: bold;
+  font-style: italic;
+}
+.location {
+  font-weight: bold;
+}
+.stats {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 5px;
+  list-style: none;
+}
+.label {
+  display: block;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+li:not(:last-child) {
+  margin-right: 5px;
+}

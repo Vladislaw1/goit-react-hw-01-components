@@ -1,0 +1,11 @@
+.item {
+  font-weight: bold;
+  font-style: italic;
+}
+.item:not(:last-child) {
+  margin-right: 15px;
+}
+.label {
+  display: block;
+  margin-bottom: 10px;
+}

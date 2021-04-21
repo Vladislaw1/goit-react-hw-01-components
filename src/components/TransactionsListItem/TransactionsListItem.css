@@ -1,0 +1,15 @@
+.transaction-history td {
+  border: 1px solid #e3eef7;
+  padding: 10px 15px;
+  position: relative;
+  transition: all 0.5s ease;
+}
+.transaction-history tbody:hover td {
+  color: transparent;
+  text-shadow: 0 0 3px #a09f9d;
+}
+.transaction-history tbody:hover tr:hover td {
+  color: #444444;
+  text-shadow: none;
+  cursor: pointer;
+}

@@ -1,0 +1,23 @@
+.statistics {
+  border: 2px solid black;
+  width: fit-content;
+  margin: 40px auto;
+  text-align: center;
+}
+.mar {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  box-shadow: 5px 10px 14px rgba(0, 0, 0, 0.4);
+}
+.title {
+  margin: 0;
+  padding: 15px;
+  border-bottom: 2px solid black;
+}
+.statList {
+  margin: 0;
+  padding: 10px 5px;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
